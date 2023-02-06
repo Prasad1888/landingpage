@@ -1,0 +1,82 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-image: url(images/Header\ Illustration.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: 700px;
+    background-position-y: 100px;
+}
+
+.header_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main_nav {
+    margin: 0px 700px 0px 0px;
+    display: flex;
+    align-items: center;
+    width: 500px;
+}
+
+.list,
+ul {
+    display: flex;
+    list-style-type: none;
+    /* background: red; */
+    justify-content: space-evenly;
+    width: 500px;
+    cursor: pointer;
+}
+
+.main_btn {
+    margin: 0px 27px 0px 0px;
+}
+
+.main_content {
+    margin: 169px 0px 0px 50px;
+}
+
+.contact_us {
+    width: 109px;
+    border: none;
+    padding: 10px;
+    background-color: #5955b3;
+    color: #ffff;
+    border-radius: 10px;
+}
+
+.main_head {
+    font-size: 64px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    font-weight: bolder;
+    color: #3c2f60;
+}
+
+.head_text {
+    color: #5955b3;
+}
+
+.main_para {
+    color: #828282;
+}
+
+.bottom_btn{
+    margin: 30px 0px 0px 48px;
+}
+.services{
+    width: 139px;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    background-color: #5955b3;
+    color: #ffff;
+    font-size: 16px;
+}
